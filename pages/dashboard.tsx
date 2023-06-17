@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import { LogoutIcon } from "@heroicons/react/solid";
 import { NextPage } from "next";
-import { UserInfo } from "../components/UserInfo";
 import { useQueryClient } from "@tanstack/react-query";
+import { UserInfo } from "../components/UserInfo";
 
 const Dashboard: NextPage = () => {
   const router = useRouter();
